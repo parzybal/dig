@@ -49,6 +49,13 @@ body {
     top: -20px;
 }
 
+#header nav .header__menu .header__li a:hover {
+    height: 100px;
+    width: 500px;
+    color: rgb(114, 10, 10);
+
+}
+
 #header nav .header__menu .header__li .header__a {
     text-decoration: none;
     color: black;
@@ -75,7 +82,10 @@ body {
     left: 150px;
     top: 200px;
     color: #4278B3;
+}
 
+#section .section__article .section__title1:hover { /* DREAM */
+    transform: scale(1.1,1.1);
 }
 
 #section .section__article .section__title2 { /* INTO GAMES */
@@ -87,7 +97,9 @@ body {
     top: 200px;
     left: 450px;
     color: #91C6FF;
-
+}
+#section .section__article .section__title2:hover { /* INTO GAMES */
+    transform: scale(1.1,1.1);
 }
 
 #section .section__article .section__title3 { /* Texto inicial */
@@ -176,7 +188,9 @@ body {
     padding: 15px;
 }
 
-#footer .footer__div .footer__redes {
+#footer .footer__div .footer__redes img {
+    width: 50px;
+    height: 50px;
     position: relative;
     top: 150px;
     left: 450px;
@@ -269,6 +283,3 @@ input {
     grid-area: header__menu;
 }
 
-#section {
-    grid-area: ;
-}
