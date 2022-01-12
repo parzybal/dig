@@ -110,7 +110,10 @@ body {
     position: relative;
     top: 50px;
     left: 50px;
-
+}
+#section .section__article .section__title3:hover { /* Texto inicial */
+    color: rgb(114, 10, 10);
+    transform: scale(1.1,1.1);
 }
 
 #section .section__article .section__p {
@@ -133,6 +136,10 @@ body {
     border: #4278B3 3px solid;
 }
 
+#section .section__article .section__img1:hover {
+    border: rgb(114, 10, 10) 6px solid;
+}
+
 #section .section__article .section__down__botton {
     font-size: 40px;
     position: relative;
@@ -153,6 +160,12 @@ body {
     position: relative;
     left: 1000px;
     bottom: 550px;
+    width: 300px;
+}
+
+#section .section__article .section__title4:hover {
+    font-size: 70px;
+    border-bottom: black 2px solid;
 }
 
 #section .section__article .section__p2 {
@@ -161,6 +174,12 @@ body {
     left: 1000px ;
     bottom: 450px;
     width: 400px;
+}
+
+#section .section__article .section__p2:hover {
+    font-size: 40px;
+    padding: 10px;
+    border: black 2px solid;
 }
 
 #footer {
@@ -174,18 +193,26 @@ body {
 
 #footer .footer__title1 {
     font-size: 50px;
-    width: 400px;
+    width: 200px;
     position: relative;
     top: 80px;
     left: 550px;
 }
 
+#footer .footer__title1:hover {
+    border-bottom: black 2px solid;
+}
+
 #footer .footer__title2 {
     font-size: 50px;
-    width: 200px;
+    width: 120px;
     position: relative;
     bottom: 15px;
-    padding: 15px;
+    
+}
+
+#footer .footer__title2:hover {
+    border-bottom: black 2px solid;
 }
 
 #footer .footer__div .footer__redes img {
@@ -217,6 +244,10 @@ body {
     left: 1100px;
     bottom: 200px;
     border: #4278B3 3px solid ;
+}
+
+#footer .footer__map:hover {
+    transform: scale(1.2,1.2);
 }
 
 #footer .footer__logo {
